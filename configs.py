@@ -4,8 +4,8 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID"))
-	API_HASH = os.environ.get("API_HASH")
+	API_ID = int(os.environ.get("36956279"))
+	API_HASH = os.environ.get("026d4ef35856ac3a8b6c5236b06035fe")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	UR_CHANNEL = os.environ.get("UR_CHANNEL")
 	UR_GROUP = os.environ.get("UR_GROUP")
