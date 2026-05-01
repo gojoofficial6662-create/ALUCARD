@@ -12,7 +12,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("Baddiechut")
 	DB_CHANNEL = int(os.environ.get("-1003948528676"))
 	BOT_OWNER = int(os.environ.get("Dangerousduck339"))
-	DATABASE_URL = os.environ.get("Gojoofficial6969@cluster0.tb5l339.mongodb.net")
+	DATABASE_URL = os.environ.get("mongodb+srv://Gojoofficial6969@cluster0.tb5l339.mongodb.net")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
